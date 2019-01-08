@@ -4,6 +4,7 @@ BD = 'ProjetoAB.db'
 
 ######################################       PRONTO       ####################################################
 def listar_todos():
+    """lista todos os membros"""
     conexao = sqlite3.connect(BD)
     cursor = conexao.cursor()
     sql = "SELECT * FROM membros"
@@ -154,20 +155,14 @@ while op != 99:
         email = input('Informe o E-mail do contato: ')
         gerente = input('Informe se o contato é gerente: ')
         id_projeto = int(input('Informe o id do projeto: '))
-        if gerente == 's':
-
-            
-        if gerente == 'n':
-
-            dev = input("Informe se é desenvolvedor: ")
-            fullstack = input('Informe se o contato é Fullstack: ')
-            backend = input('Informe se o contato é Backend: ')
-            frontend = input('Informe se o contato é Frontend: ')
-            id_projeto = int(input('Informe o id do projeto: '))
+        dev = input("Informe se é desenvolvedor: ")
+        fullstack = input('Informe se o contato é Fullstack: ')
+        backend = input('Informe se o contato é Backend: ')
+        frontend = input('Informe se o contato é Frontend: ')
+        id_projeto = int(input('Informe o id do projeto: '))
 
 
-
-            cadastrar(nome,email,gerente,dev,backend,frontend,fullstack,id_projeto)
+        cadastrar(nome,email,gerente,dev,backend,frontend,fullstack,id_projeto)
 
     elif op == 2:
         print('Esses são os contatos listados')
