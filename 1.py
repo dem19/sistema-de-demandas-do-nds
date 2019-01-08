@@ -23,6 +23,7 @@ def listar_todos():
 ######################################      PRONTO     ####################################################
 
 def buscar_por_id(id):
+    """busca pelo id do projeto"""
     conexao = sqlite3.connect(BD)
     cursor = conexao.cursor()
     sql = "SELECT * FROM membros WHERE id='%d'" % id
