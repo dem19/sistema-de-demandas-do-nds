@@ -1,0 +1,48 @@
+def menu_demandas():
+    print('############################################')
+    print('##########   MENU DE DEMANDAS    ###########')
+    print('############################################')
+    print('##       1 - Cadastrar uma demanda nova   ##')
+    print('##       2 - Listar todas as demandas     ##')
+    print('##       3 - Buscar pelo ID               ##')
+    print('##       4 - Buscar contato pela descrição##')
+    print('##       5 - Alterar descrição            ##')
+    print('##       6 - Alterar id do projeto        ##')
+    print('##       7 - Ativar                       ##')
+    print('##       8 - Inativar                     ##')
+    print('##       9 - Excluir demanda              ##')
+    print('##       10 - SAIR                        ##')
+    print('############################################')
+
+
+def menu_membros():
+    print('############################################')
+    print('###########   MENU DE MEMBROS    ###########')
+    print('############################################')
+    print('#        1 - Cadastrar Membros             #')
+    print('#        2 - Listar Todos                  #')
+    print('#        3 - Buscar por ID                 #')
+    print('#        4 - Buscar por nome               #')
+    print('#        5 - Alterar nome                  #')
+    print('#        6 - Alterar E-mail                #')
+    print('#        7 - Excluir ID                    #')
+    print('#        8 - SAIR                          #')
+    print('############################################')
+
+
+
+def menu_projetos():
+    print('###########################################')
+    print('#############   MENU PROJETO  #############')
+    print('###########################################')
+    print('##        1 - Cadastrar Projetos         ##')
+    print('##        2 - Listar Todos               ##')
+    print('##        3 - Buscar por ID              ##')
+    print('##        4 - Buscar por descrição       ##')
+    print('##        5 - Alterar Descrição          ##')
+    print('##        6 - Alterar Nome               ##')
+    print('##        7 - Ativar                     ##')
+    print('##        8 - Inativar                   ##')
+    print('##        9 - Excluir                    ##')
+    print('##        10 - SAIR                      ##')
+    print('###########################################')
